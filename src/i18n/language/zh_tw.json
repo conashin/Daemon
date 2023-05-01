@@ -1,0 +1,69 @@
+{
+  "common": {
+    "title": "標題"
+  },
+  "app": {
+    "developInfo": "無法啟動，此項目是 MCSManager 開發人員所用項目，普通用戶不可直接運行。\n請前往 https://mcsmanager.com/ 了解最新的安裝方式。\n如果您要以開發模式運行，請創建 public，src/public 目錄並放置前端靜態文件再重新運行。",
+    "panelStarted": "控制面板端已啟動",
+    "reference": "項目參考: https://github.com/mcsmanager",
+    "host": "訪問地址: http://localhost:{{port}}",
+    "portTip": "軟體公網訪問需開放埠 {{port}} 與守護進程埠",
+    "exitTip": "關閉此程序請使用 Ctrl+C 快捷鍵",
+    "httpSetupError": "HTTP/Socket 服務啟動錯誤，可能是埠被占用，權限不足或網卡設備不可用。"
+  },
+  "permission": {
+    "forbidden": "權限不足",
+    "forbiddenTokenError": "令牌(Token)驗證失敗，拒絕訪問",
+    "xmlhttprequestError": "無法找到請求頭 x-requested-with: xmlhttprequest",
+    "apiError": "金鑰不正確",
+    "forbiddenInstance": "[Forbidden] [中間件] 參數不正確或非法訪問實例",
+    "tooFast": "請求速度過快，請稍後再進行操作"
+  },
+  "systemRemoteService": {
+    "nodeCount": "遠程節點數：{{n}}",
+    "loadDaemonTitle": "正在嘗試讀取本地守護進程 {{localKeyFilePath}}",
+    "autoCheckDaemon": "檢測到本地守護進程，正在自動獲取金鑰和埠...",
+    "error": "無法自動獲取本地守護進程配置文件，請前往面板手動連接守護進程，前往 https://docs.mcsmanager.com/ 了解更多。"
+  },
+  "systemUser": {
+    "userCount": "本地用戶數：{{n}}"
+  },
+  "router": {
+    "user": {
+      "invalidUserName": "非法的使用者名稱格式",
+      "invalidPassword": "非法的密碼格式",
+      "existsUserName": "使用者名稱已經被占用",
+      "deleteFailure": "無法完成用戶數據刪除",
+      "passwordCheck": "密碼不規範，必須為擁有大小寫字母，數字，長度在9到36之間",
+      "installed": "管理員帳號已經創建，不可重複創建"
+    },
+    "instance": {
+      "createError": "創建實例失敗"
+    },
+    "file": {
+      "off": "管理員已限制全部用戶使用文件管理功能"
+    },
+    "schedule": {
+      "invalidName": "非法的計劃任務名"
+    },
+    "login": {
+      "ban": "身份驗證次數過多，您的 IP 地址已被鎖定 10 分鐘",
+      "nameOrPassError": "帳號或密碼錯誤",
+      "init": "[安裝面板] 正在初始化面板管理員帳號: {{userName}}",
+      "installed": "面板已安裝，無法重新安裝，請備份並刪除 data 文件夾以實現全新安裝"
+    }
+  },
+  "daemonInfo": {
+    "connect": "遠程節點 {{- v}} 已連接",
+    "disconnect": "遠程節點 {{- v}} 已斷開",
+    "connectError": "連接遠程節點錯誤：{{- v}} ",
+    "authSuccess": "遠程節點 {{- v}} 金鑰驗證通過",
+    "authFailure": "遠程節點 {{- v}} 金鑰驗證拒絕",
+    "authError": "遠程節點 {{- v}} 金鑰驗證錯誤",
+    "closed": "主動斷開遠程節點 {{- v}} ",
+    "resetConnect": "用戶發起重連已可用狀態的遠程節點，正在重設連接通道",
+    "replaceConnect": "用戶發起重複連接請求，現進行重設連接配置",
+    "tryConnect": "正在嘗試連接遠程節點",
+    "setLanguage": "設置節點語言"
+  }
+}
